@@ -1,0 +1,52 @@
+header {
+    padding: 30px;
+    background-color: rgb(153, 153, 153);
+ }
+ header .daily-journal {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+ }
+header .greeting {
+    font-size: 20px;
+    text-align: right;
+    color: white;
+}
+body {
+    background-color:dimgray;
+}
+body .main-body {
+    border: 3px rgb(34, 34, 34);
+    width: 400px;
+    margin:auto;
+}
+.date, .mood {
+    text-align:left;
+    color: white;
+    width: 150px;
+    border: 3px solid rgb(153, 153, 153);
+    border-radius: 8px;
+    padding: 3px;
+    margin: 10px;
+    background-color: rgb(153, 153, 153);
+  }
+.concepts-covered {
+    text-align:top, left;
+    color: white;
+    width: 350px;
+    border: 3px solid rgb(153, 153, 153);
+    border-radius: 8px;
+    padding: 3px;
+    margin: 10px;
+    background-color: rgb(153, 153, 153);
+  }
+.journal-entry {
+    text-align:top, left;
+    color: white;
+    width: 350px;
+    border: 3px solid rgb(153, 153, 153);
+    border-radius: 8px;
+    padding: 3px;
+    margin: 10px;
+    background-color: rgb(153, 153, 153);
+  }

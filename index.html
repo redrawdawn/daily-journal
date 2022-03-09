@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Journal</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<header>
+    <h1 class="daily-journal">DAILY JOURNAL</h1>
+    <p class="greeting">Hello, Andrew</p>
+</header>
+<body>
+<!-- You are going to use the form, 
+    fieldset, label, input, textarea, select,
+     and the option elements to build your form. -->
+    <section class="main-body">
+        <form action="">
+            <div class="date">
+                <p>date</p>
+                <input id="date-input" type="date">
+            </div>
+            <div class="mood">
+                <p>mood</p>
+                <select id="mood-select">
+                    <option value="happy">Happy</option>
+                    <option value="bored" selected>Bored</option>
+                    <option value="sad">sad</option>
+                </select>
+            </div>
+            <div class="concepts-covered">
+                <p>concepts covered</p>
+                <input type="text">
+            </div>
+            <div class="journal-entry">
+                <p>Journal Entry</p>
+                <textarea id="journal-entry-textarea" cols="30" rows="10"></textarea>
+            </div>
+            <button>Save</button>
+        </form>
+    </section>
+    <link rel="stylesheet" href="scripts/JournalEntry.js">
+</body>
+
+</html>
